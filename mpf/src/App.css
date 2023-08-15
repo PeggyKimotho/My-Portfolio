@@ -1,0 +1,82 @@
+.home-pg h1, p {
+  text-align: center;
+}
+
+.home-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.home-btn button {
+  margin-right: 15px;
+}
+
+.about h1, p {
+  text-align: center;
+}
+
+.bout {
+  display: flex;
+}
+
+.about-me {
+display: inline;
+}
+
+.skills h1 {
+  text-align: center;
+}
+
+.my-skills {
+  display: flex;
+}
+
+.skill {
+}
+
+.projects h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: aqua;
+}
+
+.logo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: brown;
+}
+
+.nav-menu {
+  margin-left: 150px;
+}
+
+.nav-menu ul{
+  list-style: none;
+  display: flex;
+  }
+
+  .nav-menu ul li{
+  padding-right: 20px;
+  
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .contact h1, h3, p{
+    text-align: center;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-icons img {
+    margin-right: 20px;
+  }
+  
+
+
