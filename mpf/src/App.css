@@ -1,27 +1,134 @@
-.home-pg h1, p {
-  text-align: center;
+.navbar {
+  background-color: #1a76fb;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
-.home-btn {
+.logo {
+  font-family: 'Pacifico', cursive;
+  margin-left: 20px;
+}
+
+.logo2 {
+  color: aqua;
+}
+
+.logo-text {
+ font-family: font-semibold text-lg text-black tracking-wide;
+}
+
+.nav-menu ul{
+  list-style: none;
   display: flex;
-  justify-content: center;
-}
+  margin-right: 40px;
+  }
 
-.home-btn button {
-  margin-right: 15px;
-}
+  .nav-menu li {
+    font-size: 20px;
+    font-weight: bold;
 
-.about h1, p {
+  }
+
+  .nav-menu ul li{
+  padding-right: 20px;
+  }
+
+  .nav-menu ul li a {
+    color: white; /* Set the color of the links to white */
+    text-decoration: none;
+  }
+
+
+  .home-pg, .about {
+    margin-left: 12px;
+    margin-right: 12px;
+    }
+    
+    .home-pg h1, h2, p {
+      text-align: center;
+    }
+    
+    .home-pg h1 {
+      font-size: 50px;
+    }
+    
+    .home-pg h2 {
+      font-size: 40px;
+    }
+    
+    .p {
+      margin-right: 120px;
+      margin-left: 120px;
+      font-size: 30px;
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+    
+    .home-pg {
+      margin-top: 40px;
+      min-height: 100vh;
+    }
+    
+    .home-pg button {
+      height:70px;
+      width:150px
+      
+    }
+    
+    .home-btn {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .home-btn button {
+      margin-right: 15px;
+    }
+
+
+
+.about h1{
   text-align: center;
+}
+
+.about p {
+  font-size: 20px;
 }
 
 .bout {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .about-me {
-display: inline;
+  flex: 1;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
 }
+
+.mypic {
+  max-width: 100%;
+    height: 350px;
+    border-radius: 50px;
+}
+
+.hire-btn {
+  margin-top: 40px;
+  height:70px;
+  width:150px;
+}
+
+.skill {
+  flex: 1;
+  margin: 0 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
 
 .skills h1 {
   text-align: center;
@@ -29,41 +136,27 @@ display: inline;
 
 .my-skills {
   display: flex;
+  justify-content: space-between;
 }
 
-.skill {
+.skills img {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.skill ul {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  list-style: none; 
+  padding: 0;
 }
 
 .projects h1 {
   text-align: center;
 }
 
-.container {
-  background-color: aqua;
-}
 
-.logo {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: brown;
-}
-
-.nav-menu {
-  margin-left: 150px;
-}
-
-.nav-menu ul{
-  list-style: none;
-  display: flex;
-  }
-
-  .nav-menu ul li{
-  padding-right: 20px;
-  
-  }
-
-  a {
-    text-decoration: none;
-  }
 
   .contact h1, h3, p{
     text-align: center;
@@ -76,7 +169,104 @@ display: inline;
 
   .contact-icons img {
     margin-right: 20px;
+    margin-top: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .contact-icons img:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
   }
   
+  .contact p {
+    font-size: 20px;
+  }
+  
+  .my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+  width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-card h3 {
+  padding: 10px;
+}
+
+.project-card p {
+  padding: 0 10px 10px;
+}
+
+.more-projects {
+  height:70px;
+  width:250px;
+}
+
+.project-card p a {
+  margin-right: 40px;
+}
+
+.direct {
+  display: flex;
+  justify-content: center;  
+  padding-bottom: 15px;
+}
+
+.direct button {
+  margin-right: 15px;
+}
+
+.section-divider {
+  margin-top: 80px;
+}
+
+.footer {
+  background-color: #1a76fb;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #1a76fb;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border-color: #1a76fb;
+}
+
+button:hover {
+  background-color: white;
+  color: #1a76fb;
+}
+
 
 
