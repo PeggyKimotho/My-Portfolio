@@ -48,7 +48,7 @@ function Projects(){
               
     </div>
     <div className="home-btn">
-    <a href="https://github.com/PeggyKimotho"><button className="more-projects">View More Projects</button></a>
+    <a href="https://github.com/PeggyKimotho" target="_blank" rel="noreferrer"><button className="more-projects">View More Projects</button></a>
     </div>
     <div className="section-divider"></div>
         </div>
