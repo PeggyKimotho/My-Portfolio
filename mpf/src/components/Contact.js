@@ -11,9 +11,9 @@ function Contact() {
             <p>Phone: +254 705414954</p>
             <h3>Find Me On</h3>
             <div className="contact-icons">
-                <a href="https://www.linkedin.com/in/peggykimotho/"><img src="linkedin.png" alt="LinkedIn" width="40px" height="40px" /></a>
-                <a href="https://github.com/PeggyKimotho"><img src="github.png" alt="Github" width="40px" height="40px"/></a>
-                <a href="mailto:peggykimotho@gmail.com"><img src="gmail.png" alt="Mail" width="40px" height="40px"/></a>
+                <a href="https://www.linkedin.com/in/peggykimotho/" target="_blank" rel="noreferrer"><img src="linkedin.png" alt="LinkedIn" width="40px" height="40px" /></a>
+                <a href="https://github.com/PeggyKimotho" target="_blank" rel="noreferrer"><img src="github.png" alt="Github" width="40px" height="40px"/></a>
+                <a href="mailto:peggykimotho@gmail.com" target="_blank" rel="noreferrer"><img src="gmail.png" alt="Mail" width="40px" height="40px"/></a>
             </div>
             <div className="section-divider"></div>
         </div>
