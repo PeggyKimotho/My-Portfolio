@@ -267,5 +267,162 @@ button:hover {
   color: #1a76fb;
 }
 
+@media (max-width: 768px) {
+
+  .logo {
+    font-size: 24px;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .home-pg {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+  }
+
+  h1 {
+    font-size: 24px; 
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .p {
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 20px;
+    
+  }
+
+  .home-btn {
+    text-align: center;
+  }
+  button {
+    font-size: 16px; 
+    padding: 10px 20px; 
+    margin-bottom: 10px; 
+  }
+   .mypic {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .home-btn {
+    text-align: center;
+  }
+
+  .hire-btn {
+    font-size: 16px; 
+    padding: 10px 20px;
+  }
+  .about {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px; 
+  }
+
+  .bout {
+    flex-direction: column;
+  }
+
+ 
+
+  .mypic {
+    width: 100%;
+    max-width: 300px;
+  }
+  .home-btn {
+    text-align: center; 
+    }
+
+  .hire-btn {
+    font-size: 16px;
+    padding: 1px 20px; 
+  }
+  .skills {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .my-skills {
+    flex-direction: column;
+  }
+  .skill {
+    margin-bottom: 20px; 
+  }
+
+  ul {
+    padding-left: 20px; 
+  }
+
+
+  .footer {
+    font-size: 14px; 
+    padding-top: 25px; 
+  }
+
+
+  .contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+  }
+
+  .contact h1 {
+    font-size: 24px;
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+
+  .contact-icons a {
+    margin: 0 1px;
+  }
+
+  .contact-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  .projects {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+  }
+
+  .projects h1 {
+    font-size: 24px;
+  }
+
+  .my-projects {
+    flex-direction: column;
+  }
+
+  .project-card {
+    flex: 0 0 100%; 
+    margin-bottom: 20px;
+  }
+
+  .project-card h3 {
+    font-size: 20px;
+  }
+
+  .project-card p {
+    font-size: 16px;
+  }
+}
 
 
