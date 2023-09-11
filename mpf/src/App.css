@@ -285,7 +285,7 @@ button:hover {
     display: block; 
     text-align: center;
     background-color: #1a76fb;
-
+    text-align: left;
   }
 
   .nav-menu.open ul {
@@ -305,7 +305,8 @@ button:hover {
   }
 
   h1 {
-    font-size: 24px; 
+    font-size: 24px;
+    font-weight: bold; 
   }
 
   h2 {
@@ -346,6 +347,7 @@ button:hover {
 
   h1 {
     font-size: 24px; 
+    font-weight: bold;
   }
 
   .bout {
@@ -402,6 +404,7 @@ button:hover {
 
   .contact h1 {
     font-size: 24px;
+    font-weight: bold;
   }
 
   .contact p {
@@ -424,6 +427,7 @@ button:hover {
 
   .projects h1 {
     font-size: 24px;
+    font-weight: bold;
   }
 
   .my-projects {
