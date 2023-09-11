@@ -38,6 +38,11 @@
     text-decoration: none;
   }
 
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+
 
   .home-pg, .about {
     margin-left: 12px;
@@ -267,6 +272,7 @@ button:hover {
   color: #1a76fb;
 }
 
+
 @media (max-width: 768px) {
 
   .logo {
@@ -275,6 +281,19 @@ button:hover {
   .nav-menu {
     display: none;
   }
+  .nav-menu.open {
+    display: block; 
+    text-align: center;
+    background-color: #1a76fb;
+
+  }
+
+  .nav-menu.open ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+
   .mobile-menu-icon {
     display: block;
   }

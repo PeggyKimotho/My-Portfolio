@@ -12,8 +12,7 @@ function Navbar(){
         <div className="navbar">
          <h1 className="logo">Peggy <span className="logo2">Kimotho</span></h1>
          <button className="mobile-menu-icon" onClick={toggleMenu}>
-        {/* You can use an icon or any element here */}
-        ☰ {/* This is just a placeholder for the menu icon */}
+        ☰ 
       </button>
       <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
          <ul>
